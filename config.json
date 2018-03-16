@@ -65,6 +65,11 @@
       "name":"Se31xtpSdztCAmrDVd8zmp7TCFtHm1LjrQx9zUgi6rByS6iQTP6T2FY1vhxcRMPURx9sYXTqTWCxuPE6aKbwHHhT1WYcsKDWy.600000",
       "host":"78.46.85.142",
       "port":"5223"
+    },{
+      "symbol":"xtl-sfo",
+      "name":"Se31xtpSdztCAmrDVd8zmp7TCFtHm1LjrQx9zUgi6rByS6iQTP6T2FY1vhxcRMPURx9sYXTqTWCxuPE6aKbwHHhT1WYcsKDWy.600000",
+      "host":"159.65.109.244/",
+      "port":"9999"
     }]
   }
 }
