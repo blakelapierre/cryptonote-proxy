@@ -38,8 +38,8 @@ var config = JSON.parse(fs.readFileSync('config.json'));
 const localport = config.workerport;
 var pools = config.pools;
 
-logger.info("start http interface on port %d ", config.httpport);
-server.listen(config.httpport,'::');
+logger.info("start http interface on port %d ", config.httpport, config.httphost || '::');
+server.listen(config.httpport, config.httphost || '::');
 
 function attachPool(localsocket,coin,firstConn,setWorker,user,pass) {
 
