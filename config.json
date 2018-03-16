@@ -1,6 +1,7 @@
 {
   "workerport":9999,
   "httpport":45566,
+  "httphost":'localhost',
   "default":"etn-spacepools",
   "pools": {
     "eur":[{
