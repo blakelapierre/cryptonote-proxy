@@ -21,7 +21,10 @@ app.get('/', function(req, res) {
 });
 
 app.post('/user/coin', function(req, res) {
-  console.log('/user/coin', req, req.body);
+  console.log('/user/coin', req.body);
+  const coin = req.body.coin;
+  switchEmitter.emit('switch',coin);
+  config.default=coin;
 });
 
 const logger = new (winston.Logger)({
