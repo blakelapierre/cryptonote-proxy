@@ -9,9 +9,6 @@ const winston = require('winston');
 const BN = require('bignumber.js');
 const diff2 = BN('ffffffff', 16);
 
-
-const server = http.createServer(app);
-const io = require('socket.io').listen(server);
 const bodyParser = require('body-parser');
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
@@ -27,6 +24,9 @@ app.post('/user/coin', function(req, res) {
   switchEmitter.emit('switch',coin);
   config.default=coin;
 });
+
+const server = http.createServer(app);
+const io = require('socket.io').listen(server);
 
 const logger = new (winston.Logger)({
   transports: [
