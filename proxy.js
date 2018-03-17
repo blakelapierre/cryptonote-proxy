@@ -161,6 +161,8 @@ function attachPool(localsocket,coin,firstConn,setWorker,user,pass) {
     }
   }
 
+  poolCB.coin = coin;
+
   return poolCB;
 };
 
@@ -179,12 +181,13 @@ function createResponder(localsocket,user,pass){
   var poolCB = attachPool(localsocket,config.default,true,idCB,user,pass);
 
   var switchCB = function(newcoin){
+    if (newcoin !== poolCB.coin) {
+      logger.info('-- switch worker to '+newcoin+' ('+pass+')');
+      connected = false;
 
-    logger.info('-- switch worker to '+newcoin+' ('+pass+')');
-    connected = false;
-
-    poolCB('stop');
-    poolCB = attachPool(localsocket,newcoin,false,idCB,user,pass);
+      poolCB('stop');
+      poolCB = attachPool(localsocket,newcoin,false,idCB,user,pass);
+    }
   };
 
   switchEmitter.on('switch',switchCB);
