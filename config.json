@@ -34,6 +34,11 @@
       "name":"Se31xtpSdztCAmrDVd8zmp7TCFtHm1LjrQx9zUgi6rByS6iQTP6T2FY1vhxcRMPURx9sYXTqTWCxuPE6aKbwHHhT1WYcsKDWy+600000",
       "host":"communitypool.stellite.cash",
       "port":"6655"
+    },{
+      "symbol":"PLR",
+      "name":"Pv8HEtnZZuCLLGur4VQwoBePwMNjviXYehwtjeUGVwXgeD7Xa8MyMDfBgXyvEhzBvR4j4e4BmZw6RBUb9BUN52BU1yoNhmMvu.600000",
+      "host":"mine.plurapool.com",
+      "port":"8888"
     }],
     "usa":[{
       "symbol":"TRTL",
@@ -65,6 +70,11 @@
       "name":"Se31xtpSdztCAmrDVd8zmp7TCFtHm1LjrQx9zUgi6rByS6iQTP6T2FY1vhxcRMPURx9sYXTqTWCxuPE6aKbwHHhT1WYcsKDWy.600000",
       "host":"78.46.85.142",
       "port":"5223"
+    },{
+      "symbol":"PLR",
+      "name":"Pv8HEtnZZuCLLGur4VQwoBePwMNjviXYehwtjeUGVwXgeD7Xa8MyMDfBgXyvEhzBvR4j4e4BmZw6RBUb9BUN52BU1yoNhmMvu.600000",
+      "host":"mine.plurapool.com",
+      "port":"8888"
     }]
   }
 }
