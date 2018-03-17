@@ -35,7 +35,7 @@
       "host":"communitypool.stellite.cash",
       "port":"6655"
     },{
-      "symbol":"PLR",
+      "symbol":"PLURA",
       "name":"Pv8HEtnZZuCLLGur4VQwoBePwMNjviXYehwtjeUGVwXgeD7Xa8MyMDfBgXyvEhzBvR4j4e4BmZw6RBUb9BUN52BU1yoNhmMvu.600000",
       "host":"mine.plurapool.com",
       "port":"8888"
@@ -71,7 +71,7 @@
       "host":"78.46.85.142",
       "port":"5223"
     },{
-      "symbol":"PLR",
+      "symbol":"PLURA",
       "name":"Pv8HEtnZZuCLLGur4VQwoBePwMNjviXYehwtjeUGVwXgeD7Xa8MyMDfBgXyvEhzBvR4j4e4BmZw6RBUb9BUN52BU1yoNhmMvu.600000",
       "host":"mine.plurapool.com",
       "port":"8888"
