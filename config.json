@@ -61,6 +61,11 @@
       "host":"graftpool.net",
       "port":"5555"
     },{
+      "symbol":"grft-sfo",
+      "name":"GMPHYf5KRkcAyik7Jw9oHRfJtUdw2Kj5f4VTFJ25AaFVYxofetir8Cnh7S76Q854oMXzwaguL8p5KEz1tm3rn1SA6ntd2X7G1ZENVN6Sdh+600000",
+      "host":"159.65.111.25",
+      "port":"9999"
+    },{
       "symbol":"xtl-cryptoknight",
       "name":"Se31xtpSdztCAmrDVd8zmp7TCFtHm1LjrQx9zUgi6rByS6iQTP6T2FY1vhxcRMPURx9sYXTqTWCxuPE6aKbwHHhT1WYcsKDWy.600000",
       "host":"78.46.85.142",
