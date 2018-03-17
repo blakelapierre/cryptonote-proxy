@@ -20,9 +20,9 @@ app.get('/', function(req, res) {
 app.post('/user/coin', function(req, res) {
   console.log('/user/coin', req.body);
   const coin = req.body.coin;
-  logger.info('->'+coin);
-  switchEmitter.emit('switch',coin);
-  config.default=coin;
+  logger.info('->' + coin);
+  switchEmitter.emit('switch', coin);
+  config.default = coin;
 });
 
 const server = http.createServer(app);
