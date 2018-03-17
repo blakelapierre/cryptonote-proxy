@@ -69,6 +69,7 @@ function attachPool(localsocket,coin,firstConn,setWorker,user,pass) {
 
     logger.info('new login to '+coin+' ('+pass+')');
     var request = {"id":1,"method":"login","params":{"login":pools[user][idx].name,"pass":"x","agent":"XMRig/2.4.3"}};
+    console.log({request});
     remotesocket.write(JSON.stringify(request)+"\n");
 
   });
