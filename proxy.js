@@ -20,7 +20,9 @@ app.get('/', function(req, res) {
   res.sendFile(path.resolve(__dirname+'/index.html'));
 });
 
-app.post('/user/coin')
+app.post('/user/coin', function(req, res) {
+  console.log('/user/coin', res.body);
+});
 
 const logger = new (winston.Logger)({
   transports: [
