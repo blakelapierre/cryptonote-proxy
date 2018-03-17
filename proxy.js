@@ -21,7 +21,7 @@ app.get('/', function(req, res) {
 });
 
 app.post('/user/coin', function(req, res) {
-  console.log('/user/coin', res.body);
+  console.log('/user/coin', req, req.body);
 });
 
 const logger = new (winston.Logger)({
