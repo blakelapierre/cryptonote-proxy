@@ -23,6 +23,7 @@ app.post('/user/coin', function(req, res) {
   logger.info('->' + coin);
   switchEmitter.emit('switch', coin);
   config.default = coin;
+  res.end();
 });
 
 const server = http.createServer(app);
