@@ -20,6 +20,8 @@ app.get('/', function(req, res) {
   res.sendFile(path.resolve(__dirname+'/index.html'));
 });
 
+app.post('/user/coin')
+
 const logger = new (winston.Logger)({
   transports: [
     new winston.transports.Console({timestamp:(new Date()).toLocaleTimeString(),colorize:true,level:'info'}),
