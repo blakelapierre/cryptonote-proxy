@@ -17,7 +17,7 @@
     },{
       "symbol":"ETN",
       "name":"f4VR74XR616Tw2wAMMfaLV1vmYBSBBbmWXBUtaV8YDb6DHsfKRoYkFaCvhPhsGDDfm1afhzLNuf5XGFmNrvodPoQ6m4qLBtqrK15ZQg4neRYH+600000",
-      "host":"ppool.electroneum.hashvault.pro",
+      "host":"pool.electroneum.hashvault.pro",
       "port":"7777"
     },{
       "symbol":"ITNS",
@@ -53,7 +53,7 @@
     },{
       "symbol":"ETN",
       "name":"f4VR74XR616Tw2wAMMfaLV1vmYBSBBbmWXBUtaV8YDb6DHsfKRoYkFaCvhPhsGDDfm1afhzLNuf5XGFmNrvodPoQ6m4qLBtqrK15ZQg4neRYH+600000",
-      "host":"ppool.electroneum.hashvault.pro",
+      "host":"pool.electroneum.hashvault.pro",
       "port":"7777"
     },{
       "symbol":"ITNS",
