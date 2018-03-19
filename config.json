@@ -16,9 +16,9 @@
       "port":"8889"
     },{
       "symbol":"ETN",
-      "name":"f4VR74XR616Tw2wAMMfaLV1vmYBSBBbmWXBUtaV8YDb6DHsfKRoYkFaCvhPhsGDDfm1afhzLNuf5XGFmNrvodPoQ6m4qLBtqrK15ZQg4neRYH+600000",
-      "host":"pool.electroneum.hashvault.pro",
-      "port":"5555"
+      "name":"f4VR74XR616Tw2wAMMfaLV1vmYBSBBbmWXBUtaV8YDb6DHsfKRoYkFaCvhPhsGDDfm1afhzLNuf5XGFmNrvodPoQ6m4qLBtqrK15ZQg4neRYH",
+      "host":"etn.easyhash.io",
+      "port":"3634"
     },{
       "symbol":"ITNS",
       "name":"iz44v9Cs9XtPAXqdTwAbQPBMNqQWhY1ns77imdefBk641UfEsVN8zLqAFjrtHbaMv1TygTcvJWzGN3zNR6PeEYuc1w8UuQafE.745d0a1a35ba0813fb28d39585698613a31ee26d0921621f40797823f18f2adf+600000",
@@ -52,9 +52,9 @@
       "port":"8889"
     },{
       "symbol":"ETN",
-      "name":"f4VR74XR616Tw2wAMMfaLV1vmYBSBBbmWXBUtaV8YDb6DHsfKRoYkFaCvhPhsGDDfm1afhzLNuf5XGFmNrvodPoQ6m4qLBtqrK15ZQg4neRYH+600000",
-      "host":"pool.electroneum.hashvault.pro",
-      "port":"5555"
+      "name":"f4VR74XR616Tw2wAMMfaLV1vmYBSBBbmWXBUtaV8YDb6DHsfKRoYkFaCvhPhsGDDfm1afhzLNuf5XGFmNrvodPoQ6m4qLBtqrK15ZQg4neRYH",
+      "host":"etn.easyhash.io",
+      "port":"3634"
     },{
       "symbol":"ITNS",
       "name":"iz44v9Cs9XtPAXqdTwAbQPBMNqQWhY1ns77imdefBk641UfEsVN8zLqAFjrtHbaMv1TygTcvJWzGN3zNR6PeEYuc1w8UuQafE.745d0a1a35ba0813fb28d39585698613a31ee26d0921621f40797823f18f2adf+600000",
