@@ -138,7 +138,7 @@ function attachPool(localsocket,coin,firstConn,setWorker,user,pass) {
 
     //set pool dirty of happens multiple times
     //send share reject
-    //switchEmitter.emit('switch',coin);
+    switchEmitter.emit('switch',pools[user][Math.ceil(Math.random() * pools[user].length) - 1]);
   });
 
   var poolCB = function(type,data){
