@@ -39,6 +39,11 @@
       "name":"Pv8HEtnZZuCLLGur4VQwoBePwMNjviXYehwtjeUGVwXgeD7Xa8MyMDfBgXyvEhzBvR4j4e4BmZw6RBUb9BUN52BU1yoNhmMvu.600000",
       "host":"mine.plurapool.com",
       "port":"8888"
+    },{
+      "symbol":"XHV",
+      "name":"hvi1aCqoAZF19J8pijvqnrUkeAeP8Rvr4XyfDMGJcarhbL15KgYKM1hN7kiHMu3fer5k8JJ8YRLKCahDKFgLFgJMYAfnNPmpB312pync2Yy3a.600000",
+      "host":"haven.ingest.cryptoknight.cc",
+      "port":"5533"
     }],
     "usa":[{
       "symbol":"TRTL",
@@ -75,6 +80,11 @@
       "name":"Pv8HEtnZZuCLLGur4VQwoBePwMNjviXYehwtjeUGVwXgeD7Xa8MyMDfBgXyvEhzBvR4j4e4BmZw6RBUb9BUN52BU1yoNhmMvu.600000",
       "host":"mine.plurapool.com",
       "port":"8888"
+    },{
+      "symbol":"XHV",
+      "name":"hvi1aCqoAZF19J8pijvqnrUkeAeP8Rvr4XyfDMGJcarhbL15KgYKM1hN7kiHMu3fer5k8JJ8YRLKCahDKFgLFgJMYAfnNPmpB312pync2Yy3a.600000",
+      "host":"haven.ingest.cryptoknight.cc",
+      "port":"5533"
     }]
   }
 }
