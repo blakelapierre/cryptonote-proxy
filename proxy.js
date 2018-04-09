@@ -81,7 +81,7 @@ function attachPool(localsocket,coin,firstConn,setWorker,user,pass) {
     if(data)logger.debug('received from pool ('+coin+'):'+data.toString().trim()+' ('+pass+')');
 
     try {
-      var request = JSON.parse(data);
+      var request = JSON.parse(data.toString());
 
 
       if(request.result && request.result.job)
