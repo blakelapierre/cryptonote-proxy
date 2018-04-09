@@ -80,53 +80,58 @@ function attachPool(localsocket,coin,firstConn,setWorker,user,pass) {
 
     if(data)logger.debug('received from pool ('+coin+'):'+data.toString().trim()+' ('+pass+')');
 
-    var request = JSON.parse(data);
+    try {
+      var request = JSON.parse(data);
 
 
-    if(request.result && request.result.job)
-    {
-      var mybuf = new  Buffer(request.result.job.target, "hex");
-
-      poolDiff = diff2.div(BN(mybuf.reverse().toString('hex'),16)).toFixed(0);
-
-      logger.info('login reply from '+coin+' ('+pass+') (diff: '+poolDiff+')');
-
-      setWorker(request.result.id);
-
-      if(! firstConn)
+      if(request.result && request.result.job)
       {
+        var mybuf = new  Buffer(request.result.job.target, "hex");
 
-        logger.info('  new job from login reply ('+pass+')');
-        var job = request.result.job;
+        poolDiff = diff2.div(BN(mybuf.reverse().toString('hex'),16)).toFixed(0);
+
+        logger.info('login reply from '+coin+' ('+pass+') (diff: '+poolDiff+')');
+
+        setWorker(request.result.id);
+
+        if(! firstConn)
+        {
+
+          logger.info('  new job from login reply ('+pass+')');
+          var job = request.result.job;
 
 
-        request = {
-                "jsonrpc":"2.0",
-                "method":"job",
-                "params":job
-              };
+          request = {
+                  "jsonrpc":"2.0",
+                  "method":"job",
+                  "params":job
+                };
+        }
+        firstConn=false;
       }
-      firstConn=false;
-    }
-    else if(request.result && request.result.status === 'OK')
-    {
-      logger.info('    share deliverd to '+coin+' '+request.result.status+' ('+pass+')');
-    }
-    else if(request.method && request.method === 'job')
-    {
-      var mybuf = new  Buffer(request.params.target, "hex");
-      poolDiff = diff2.div(BN(mybuf.reverse().toString('hex'),16)).toFixed(0);
+      else if(request.result && request.result.status === 'OK')
+      {
+        logger.info('    share deliverd to '+coin+' '+request.result.status+' ('+pass+')');
+      }
+      else if(request.method && request.method === 'job')
+      {
+        var mybuf = new  Buffer(request.params.target, "hex");
+        poolDiff = diff2.div(BN(mybuf.reverse().toString('hex'),16)).toFixed(0);
 
-      logger.info('New Job from pool '+coin+' ('+pass+') (diff: '+poolDiff+')');
-    }
-    else if(request.method)
-    {
-      logger.info(request.method+' (?) from pool '+coin+' ('+pass+')');
-    }else{
-      logger.info(data+' (else) from '+coin+' '+JSON.stringify(request)+' ('+pass+')');
-    }
+        logger.info('New Job from pool '+coin+' ('+pass+') (diff: '+poolDiff+')');
+      }
+      else if(request.method)
+      {
+        logger.info(request.method+' (?) from pool '+coin+' ('+pass+')');
+      }else{
+        logger.info(data+' (else) from '+coin+' '+JSON.stringify(request)+' ('+pass+')');
+      }
 
-    localsocket.write(JSON.stringify(request)+"\n");
+      localsocket.write(JSON.stringify(request)+"\n");
+    }
+    catch (e) {
+      console.error('Error parsing', data);
+    }
   });
 
   remotesocket.on('close', function(had_error,text) {
