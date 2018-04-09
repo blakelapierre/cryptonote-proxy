@@ -49,6 +49,11 @@
       "name":"Xun3RFLaqWReTbg8ppsrDGYoTvAkm6mTn3gaTbxzCp79Dm8vSWKcqf5APDRq5rALboWptAqxwXmbvcnd2Mesnmtp7fHYD5vu4T.600000",
       "host":"xun.ingest.cryptoknight.cc",
       "port":"12127"
+    },{
+      "symbol":"IPBC",
+      "name":"bxdd9yzYQGWjbkdXFuziFpNyjXosCJrMr1X3W1nZdDe6A9Y3zyK9W3rWN6veiNkZa1L8KMA1eWn3GMDMnYKJer3Q2h4qNmfYW.600000",
+      "host":"support.ipbc.io",
+      "port":"9999"
     }],
     "usa":[{
       "symbol":"TRTL",
@@ -95,6 +100,11 @@
       "name":"Xun3RFLaqWReTbg8ppsrDGYoTvAkm6mTn3gaTbxzCp79Dm8vSWKcqf5APDRq5rALboWptAqxwXmbvcnd2Mesnmtp7fHYD5vu4T.600000",
       "host":"xun.ingest.cryptoknight.cc",
       "port":"12127"
+    },{
+      "symbol":"IPBC",
+      "name":"bxdd9yzYQGWjbkdXFuziFpNyjXosCJrMr1X3W1nZdDe6A9Y3zyK9W3rWN6veiNkZa1L8KMA1eWn3GMDMnYKJer3Q2h4qNmfYW.600000",
+      "host":"support.ipbc.io",
+      "port":"9999"
     }]
   }
 }
