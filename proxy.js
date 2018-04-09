@@ -130,7 +130,7 @@ function attachPool(localsocket,coin,firstConn,setWorker,user,pass) {
       localsocket.write(JSON.stringify(request)+"\n");
     }
     catch (e) {
-      console.error('Error parsing', data);
+      console.error('#################Error parsing', data.toString());
     }
   });
 
