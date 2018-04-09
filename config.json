@@ -44,6 +44,11 @@
       "name":"hvxyHF34yP2cWtcdxtsKQbGYdfnS2Sj5RNGbiMYZJLYNKRzTYJnjXQV4HLv4CaTFt9LZPKauo4ttrTqBrWcmm6wxA1pehWw5mU.600000",
       "host":"159.89.132.200",
       "port":"9999"
+    },{
+      "symbol":"XUN",
+      "name":"Xun3RFLaqWReTbg8ppsrDGYoTvAkm6mTn3gaTbxzCp79Dm8vSWKcqf5APDRq5rALboWptAqxwXmbvcnd2Mesnmtp7fHYD5vu4T.600000",
+      "host":"xun.ingest.cryptoknight.cc",
+      "port":"12127"
     }],
     "usa":[{
       "symbol":"TRTL",
@@ -85,6 +90,11 @@
       "name":"hvxyHF34yP2cWtcdxtsKQbGYdfnS2Sj5RNGbiMYZJLYNKRzTYJnjXQV4HLv4CaTFt9LZPKauo4ttrTqBrWcmm6wxA1pehWw5mU.600000",
       "host":"159.89.132.200",
       "port":"9999"
+    },{
+      "symbol":"XUN",
+      "name":"Xun3RFLaqWReTbg8ppsrDGYoTvAkm6mTn3gaTbxzCp79Dm8vSWKcqf5APDRq5rALboWptAqxwXmbvcnd2Mesnmtp7fHYD5vu4T.600000",
+      "host":"xun.ingest.cryptoknight.cc",
+      "port":"12127"
     }]
   }
 }
