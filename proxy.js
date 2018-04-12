@@ -162,6 +162,8 @@ function attachPool(localsocket,coin,firstConn,setWorker,user,pass) {
         const now = ((new Date).getTime())/1000;
         const rate = shares / (now-connectTime);
 
+        localsocket.hashRate = rate;
+
         logger.info('   HashRate:'+((rate).toFixed(2))+' kH/s');
       }
       remotesocket.write(JSON.stringify(data)+"\n");
