@@ -307,13 +307,15 @@ io.on('connection', function(socket){
     config = JSON.parse(fs.readFileSync('config.json'));
     pools = config.pools;
     var coins = [];
-    for (var pool of pools[user]) coins.push(pool.symbol);
+    pools[user].forEach(pool => coins.push(pool.symbol));
+    // for (var pool of pools[user]) coins.push(pool.symbol);
     socket.emit('coins',coins);
     logger.info("pool config reloaded");
   });
   socket.on('user',function(user) {
     var coins = [];
-    for (var pool of pools[user]) coins.push(pool.symbol);
+    pools[user].forEach(pool => coins.push(pool.symbol));
+    // for (var pool of pools[user]) coins.push(pool.symbol);
     socket.emit('coins',coins);
   });
 
