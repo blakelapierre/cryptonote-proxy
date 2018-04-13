@@ -54,6 +54,11 @@
       "name":"bxdd9yzYQGWjbkdXFuziFpNyjXosCJrMr1X3W1nZdDe6A9Y3zyK9W3rWN6veiNkZa1L8KMA1eWn3GMDMnYKJer3Q2h4qNmfYW.5000000",
       "host":"support.ipbc.io",
       "port":"9999"
+    },{
+      "symbol":"OMB",
+      "name":"casha2Fz1TKcKE5ynfmiobi7Z6kKT5PkHCdevBJvG13LF2CZBEXSmUjj5Jo6sht7ee5r5SM7v1ZvuLrNgYedvGP51pUJbAUDiA.5000000",
+      "host":"pool.ombre.io",
+      "port":"4451"
     }],
     "usa":[{
       "symbol":"TRTL",
@@ -105,6 +110,11 @@
       "name":"bxdd9yzYQGWjbkdXFuziFpNyjXosCJrMr1X3W1nZdDe6A9Y3zyK9W3rWN6veiNkZa1L8KMA1eWn3GMDMnYKJer3Q2h4qNmfYW.5000000",
       "host":"ipbc.ingest.cryptoknight.cc",
       "port":"4463"
+    },{
+      "symbol":"OMB",
+      "name":"casha2Fz1TKcKE5ynfmiobi7Z6kKT5PkHCdevBJvG13LF2CZBEXSmUjj5Jo6sht7ee5r5SM7v1ZvuLrNgYedvGP51pUJbAUDiA.5000000",
+      "host":"pool.ombre.io",
+      "port":"4451"
     }]
   }
 }
