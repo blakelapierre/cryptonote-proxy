@@ -244,8 +244,8 @@ function createResponder(localsocket,user,pass){
 const socketStats = {};
 let socketId = 0;
 const workerserver = net.createServer(function (localsocket) {
-  localSocket.localSocketId = socketId++;
-  socketStats[localSocket.localSocketId] = {rate: 0};
+  localsocket.localSocketId = socketId++;
+  socketStats[localsocket.localSocketId] = {rate: 0};
 
   workerserver.getConnections(function(err,number){
     logger.info(">>> connection #%d from %s:%d",number,localsocket.remoteAddress,localsocket.remotePort);
