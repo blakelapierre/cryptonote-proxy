@@ -169,7 +169,7 @@ function attachPool(localsocket,coin,firstConn,setWorker,user,pass) {
         const now = ((new Date).getTime())/1000;
         const rate = shares / (now-connectTime);
 
-        socketStats[localSocket.localSocketId].rate = rate;
+        socketStats[localsocket.localSocketId].rate = rate;
 
         logger.info('   HashRate:'+((rate).toFixed(2))+' kH/s');
       }
@@ -305,7 +305,7 @@ const workerserver = net.createServer(function (localsocket) {
       responderCB('stop');
     }
 
-    delete socketStats[socketId];
+    delete socketStats[localsocket.localSocketId];
   });
 
 });
