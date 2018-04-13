@@ -6,113 +6,113 @@
   "pools": {
     "eur":[{
       "symbol":"TRTL",
-      "name":"TRTLv1W1So77yGbVtrgf8G4epg5Fhq9hEZvpZC8ev86xRVLYsQQMHrxQG92QVjUU3bcE6ThGw9vSbEHBMejJpexE2sdrTC24ZXR.5000000",
+      "name":"TRTLv1W1So77yGbVtrgf8G4epg5Fhq9hEZvpZC8ev86xRVLYsQQMHrxQG92QVjUU3bcE6ThGw9vSbEHBMejJpexE2sdrTC24ZXR.20000000",
       "host":"178.62.224.84",
       "port":"9999"
     },{
       "symbol":"MSR",
-      "name":"5iJjH9UH36SgL367R3F6WD638qQmeRyWrEXFnTKURLtZW196MdueJ6TJnJJN4PEnRhM6au2QYRLdmNoyta2Qwax71irJXuU.5000000",
+      "name":"5iJjH9UH36SgL367R3F6WD638qQmeRyWrEXFnTKURLtZW196MdueJ6TJnJJN4PEnRhM6au2QYRLdmNoyta2Qwax71irJXuU.20000000",
       "host":"masari.superpools.net",
       "port":"8889"
     },{
       "symbol":"ETN",
-      "name":"etnk1FzHAgEH2p15Usyzy5UhYocszGggwFaHE6k8Z1ZSBE4kww7azLkT3qgVFgKn5LaVxV9NRssPu5PsWLtJteZw9v6yhMEVRA.10000000",
+      "name":"etnk1FzHAgEH2p15Usyzy5UhYocszGggwFaHE6k8Z1ZSBE4kww7azLkT3qgVFgKn5LaVxV9NRssPu5PsWLtJteZw9v6yhMEVRA.20000000",
       "host":"etn.ams.pools.p2p.ninja",
       "port":"9999"
     },{
       "symbol":"ITNS",
-      "name":"iz5kX5mw81sMvzUVUnHAfAUe2s2htZZYW4tZBqRNL8UWhU6yq9JriFnTkQjZkjvt66YBBje4TjSEXNXk3MXLNHrc18ryXPura+5000000",
+      "name":"iz5kX5mw81sMvzUVUnHAfAUe2s2htZZYW4tZBqRNL8UWhU6yq9JriFnTkQjZkjvt66YBBje4TjSEXNXk3MXLNHrc18ryXPura+20000000",
       "host":"pool.intense.hashvault.pro",
       "port":"8888"
     },{
       "symbol":"GRFT",
-      "name":"GMPHYf5KRkcAyik7Jw9oHRfJtUdw2Kj5f4VTFJ25AaFVYxofetir8Cnh7S76Q854oMXzwaguL8p5KEz1tm3rn1SA6ntd2X7G1ZENVN6Sdh+5000000",
+      "name":"GMPHYf5KRkcAyik7Jw9oHRfJtUdw2Kj5f4VTFJ25AaFVYxofetir8Cnh7S76Q854oMXzwaguL8p5KEz1tm3rn1SA6ntd2X7G1ZENVN6Sdh+20000000",
       "host":"graftpool.net",
       "port":"5555"
     },{
       "symbol":"XTL",
-      "name":"Se31xtpSdztCAmrDVd8zmp7TCFtHm1LjrQx9zUgi6rByS6iQTP6T2FY1vhxcRMPURx9sYXTqTWCxuPE6aKbwHHhT1WYcsKDWy+5000000",
+      "name":"Se31xtpSdztCAmrDVd8zmp7TCFtHm1LjrQx9zUgi6rByS6iQTP6T2FY1vhxcRMPURx9sYXTqTWCxuPE6aKbwHHhT1WYcsKDWy+20000000",
       "host":"communitypool.stellite.cash",
       "port":"6655"
     },{
       "symbol":"PLURA",
-      "name":"Pv7ydx95p4Y11ZQaZGKMxGgrSQ9bLCarCGfdYxxDNawJacZrmFQZWQUaQmxADnDg6PjFYc5xd44LJQBroUqiJba72nUUFnudx.5000000",
+      "name":"Pv7ydx95p4Y11ZQaZGKMxGgrSQ9bLCarCGfdYxxDNawJacZrmFQZWQUaQmxADnDg6PjFYc5xd44LJQBroUqiJba72nUUFnudx.20000000",
       "host":"mine.plurapool.com",
       "port":"8888"
     },{
       "symbol":"XHV",
-      "name":"hvxyHF34yP2cWtcdxtsKQbGYdfnS2Sj5RNGbiMYZJLYNKRzTYJnjXQV4HLv4CaTFt9LZPKauo4ttrTqBrWcmm6wxA1pehWw5mU.5000000",
+      "name":"hvxyHF34yP2cWtcdxtsKQbGYdfnS2Sj5RNGbiMYZJLYNKRzTYJnjXQV4HLv4CaTFt9LZPKauo4ttrTqBrWcmm6wxA1pehWw5mU.20000000",
       "host":"159.89.132.200",
       "port":"9999"
     },{
       "symbol":"XUN",
-      "name":"Xun3RFLaqWReTbg8ppsrDGYoTvAkm6mTn3gaTbxzCp79Dm8vSWKcqf5APDRq5rALboWptAqxwXmbvcnd2Mesnmtp7fHYD5vu4T.5000000",
+      "name":"Xun3RFLaqWReTbg8ppsrDGYoTvAkm6mTn3gaTbxzCp79Dm8vSWKcqf5APDRq5rALboWptAqxwXmbvcnd2Mesnmtp7fHYD5vu4T.20000000",
       "host":"xun.ingest.cryptoknight.cc",
       "port":"12127"
     },{
       "symbol":"IPBC",
-      "name":"bxdd9yzYQGWjbkdXFuziFpNyjXosCJrMr1X3W1nZdDe6A9Y3zyK9W3rWN6veiNkZa1L8KMA1eWn3GMDMnYKJer3Q2h4qNmfYW.5000000",
+      "name":"bxdd9yzYQGWjbkdXFuziFpNyjXosCJrMr1X3W1nZdDe6A9Y3zyK9W3rWN6veiNkZa1L8KMA1eWn3GMDMnYKJer3Q2h4qNmfYW.20000000",
       "host":"support.ipbc.io",
       "port":"9999"
     },{
       "symbol":"OMB",
-      "name":"casha2Fz1TKcKE5ynfmiobi7Z6kKT5PkHCdevBJvG13LF2CZBEXSmUjj5Jo6sht7ee5r5SM7v1ZvuLrNgYedvGP51pUJbAUDiA.5000000",
+      "name":"casha2Fz1TKcKE5ynfmiobi7Z6kKT5PkHCdevBJvG13LF2CZBEXSmUjj5Jo6sht7ee5r5SM7v1ZvuLrNgYedvGP51pUJbAUDiA.20000000",
       "host":"pool.ombre.io",
       "port":"4451"
     }],
     "usa":[{
       "symbol":"TRTL",
-      "name":"TRTLv1W1So77yGbVtrgf8G4epg5Fhq9hEZvpZC8ev86xRVLYsQQMHrxQG92QVjUU3bcE6ThGw9vSbEHBMejJpexE2sdrTC24ZXR.5000000",
+      "name":"TRTLv1W1So77yGbVtrgf8G4epg5Fhq9hEZvpZC8ev86xRVLYsQQMHrxQG92QVjUU3bcE6ThGw9vSbEHBMejJpexE2sdrTC24ZXR.20000000",
       "host":"165.227.43.9",
       "port":"9999"
     },{
       "symbol":"MSR",
-      "name":"5iJjH9UH36SgL367R3F6WD638qQmeRyWrEXFnTKURLtZW196MdueJ6TJnJJN4PEnRhM6au2QYRLdmNoyta2Qwax71irJXuU.5000000",
+      "name":"5iJjH9UH36SgL367R3F6WD638qQmeRyWrEXFnTKURLtZW196MdueJ6TJnJJN4PEnRhM6au2QYRLdmNoyta2Qwax71irJXuU.20000000",
       "host":"masari.superpools.net",
       "port":"8889"
     },{
       "symbol":"ETN",
-      "name":"etnk1FzHAgEH2p15Usyzy5UhYocszGggwFaHE6k8Z1ZSBE4kww7azLkT3qgVFgKn5LaVxV9NRssPu5PsWLtJteZw9v6yhMEVRA.10000000",
+      "name":"etnk1FzHAgEH2p15Usyzy5UhYocszGggwFaHE6k8Z1ZSBE4kww7azLkT3qgVFgKn5LaVxV9NRssPu5PsWLtJteZw9v6yhMEVRA.20000000",
       "host":"etn.sfo.pools.p2p.ninja",
       "port":"9999"
     },{
       "symbol":"ITNS",
-      "name":"iz5kX5mw81sMvzUVUnHAfAUe2s2htZZYW4tZBqRNL8UWhU6yq9JriFnTkQjZkjvt66YBBje4TjSEXNXk3MXLNHrc18ryXPura+5000000",
+      "name":"iz5kX5mw81sMvzUVUnHAfAUe2s2htZZYW4tZBqRNL8UWhU6yq9JriFnTkQjZkjvt66YBBje4TjSEXNXk3MXLNHrc18ryXPura+20000000",
       "host":"pool.intense.hashvault.pro",
       "port":"8888"
     },{
       "symbol":"GRFT",
-      "name":"GMPHYf5KRkcAyik7Jw9oHRfJtUdw2Kj5f4VTFJ25AaFVYxofetir8Cnh7S76Q854oMXzwaguL8p5KEz1tm3rn1SA6ntd2X7G1ZENVN6Sdh+5000000",
+      "name":"GMPHYf5KRkcAyik7Jw9oHRfJtUdw2Kj5f4VTFJ25AaFVYxofetir8Cnh7S76Q854oMXzwaguL8p5KEz1tm3rn1SA6ntd2X7G1ZENVN6Sdh+20000000",
       "host":"graftpool.net",
       "port":"5555"
     },{
       "symbol":"XTL",
-      "name":"Se31xtpSdztCAmrDVd8zmp7TCFtHm1LjrQx9zUgi6rByS6iQTP6T2FY1vhxcRMPURx9sYXTqTWCxuPE6aKbwHHhT1WYcsKDWy.5000000",
+      "name":"Se31xtpSdztCAmrDVd8zmp7TCFtHm1LjrQx9zUgi6rByS6iQTP6T2FY1vhxcRMPURx9sYXTqTWCxuPE6aKbwHHhT1WYcsKDWy.20000000",
       "host":"78.46.85.142",
       "port":"5223"
     },{
       "symbol":"PLURA",
-      "name":"Pv7ydx95p4Y11ZQaZGKMxGgrSQ9bLCarCGfdYxxDNawJacZrmFQZWQUaQmxADnDg6PjFYc5xd44LJQBroUqiJba72nUUFnudx.5000000",
+      "name":"Pv7ydx95p4Y11ZQaZGKMxGgrSQ9bLCarCGfdYxxDNawJacZrmFQZWQUaQmxADnDg6PjFYc5xd44LJQBroUqiJba72nUUFnudx.20000000",
       "host":"mine.plurapool.com",
       "port":"8888"
     },{
       "symbol":"XHV",
-      "name":"hvxyHF34yP2cWtcdxtsKQbGYdfnS2Sj5RNGbiMYZJLYNKRzTYJnjXQV4HLv4CaTFt9LZPKauo4ttrTqBrWcmm6wxA1pehWw5mU.5000000",
+      "name":"hvxyHF34yP2cWtcdxtsKQbGYdfnS2Sj5RNGbiMYZJLYNKRzTYJnjXQV4HLv4CaTFt9LZPKauo4ttrTqBrWcmm6wxA1pehWw5mU.20000000",
       "host":"159.89.132.200",
       "port":"9999"
     },{
       "symbol":"XUN",
-      "name":"Xun3RFLaqWReTbg8ppsrDGYoTvAkm6mTn3gaTbxzCp79Dm8vSWKcqf5APDRq5rALboWptAqxwXmbvcnd2Mesnmtp7fHYD5vu4T.5000000",
+      "name":"Xun3RFLaqWReTbg8ppsrDGYoTvAkm6mTn3gaTbxzCp79Dm8vSWKcqf5APDRq5rALboWptAqxwXmbvcnd2Mesnmtp7fHYD5vu4T.20000000",
       "host":"xun.ingest.cryptoknight.cc",
       "port":"12127"
     },{
       "symbol":"IPBC",
-      "name":"bxdd9yzYQGWjbkdXFuziFpNyjXosCJrMr1X3W1nZdDe6A9Y3zyK9W3rWN6veiNkZa1L8KMA1eWn3GMDMnYKJer3Q2h4qNmfYW.5000000",
+      "name":"bxdd9yzYQGWjbkdXFuziFpNyjXosCJrMr1X3W1nZdDe6A9Y3zyK9W3rWN6veiNkZa1L8KMA1eWn3GMDMnYKJer3Q2h4qNmfYW.20000000",
       "host":"ipbc.ingest.cryptoknight.cc",
       "port":"4463"
     },{
       "symbol":"OMB",
-      "name":"casha2Fz1TKcKE5ynfmiobi7Z6kKT5PkHCdevBJvG13LF2CZBEXSmUjj5Jo6sht7ee5r5SM7v1ZvuLrNgYedvGP51pUJbAUDiA.5000000",
+      "name":"casha2Fz1TKcKE5ynfmiobi7Z6kKT5PkHCdevBJvG13LF2CZBEXSmUjj5Jo6sht7ee5r5SM7v1ZvuLrNgYedvGP51pUJbAUDiA.20000000",
       "host":"pool.ombre.io",
       "port":"4451"
     }]
