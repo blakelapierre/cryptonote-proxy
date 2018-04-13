@@ -27,6 +27,13 @@ app.post('/user/coin', function(req, res) {
   res.end();
 });
 
+app.post('/workers', function(req, res) {
+  console.log('/workers', req.body);
+
+  res.write(JSON.stringify({stats: socketStats}));
+  res.end();
+});
+
 const server = http.createServer(app);
 const io = require('socket.io').listen(server);
 
@@ -162,7 +169,7 @@ function attachPool(localsocket,coin,firstConn,setWorker,user,pass) {
         const now = ((new Date).getTime())/1000;
         const rate = shares / (now-connectTime);
 
-        localsocket.hashRate = rate;
+        socketStats[localSocket.localSocketId].rate = rate;
 
         logger.info('   HashRate:'+((rate).toFixed(2))+' kH/s');
       }
@@ -234,7 +241,11 @@ function createResponder(localsocket,user,pass){
   return callback;
 };
 
+const socketStats = {};
+let socketId = 0;
 const workerserver = net.createServer(function (localsocket) {
+  localSocket.localSocketId = socketId++;
+  socketStats[localSocket.localSocketId] = {rate: 0};
 
   workerserver.getConnections(function(err,number){
     logger.info(">>> connection #%d from %s:%d",number,localsocket.remoteAddress,localsocket.remotePort);
@@ -293,6 +304,8 @@ const workerserver = net.createServer(function (localsocket) {
     {
       responderCB('stop');
     }
+
+    delete socketStats[socketId];
   });
 
 });
