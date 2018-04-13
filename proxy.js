@@ -28,7 +28,7 @@ app.post('/user/coin', function(req, res) {
 });
 
 app.get('/workers', function(req, res) {
-  console.log('/workers', req.body);
+  console.log('/workers', socketStats);
 
   res.write(JSON.stringify({stats: socketStats}));
   res.end();
