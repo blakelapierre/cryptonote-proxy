@@ -246,7 +246,7 @@ const socketStats = {};
 let socketId = 0;
 const workerserver = net.createServer(function (localsocket) {
   localsocket.localSocketId = socketId++;
-  socketStats[localsocket.localSocketId] = {rate: 0};
+  socketStats[localsocket.localSocketId] = {rate: 0, timestamp: new Date().getTime()};
 
   workerserver.getConnections(function(err,number){
     logger.info(">>> connection #%d from %s:%d",number,localsocket.remoteAddress,localsocket.remotePort);
