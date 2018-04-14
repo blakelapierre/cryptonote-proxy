@@ -37,8 +37,6 @@
     },{
       "symbol":"PLURA",
       "name":"Pv7ydx95p4Y11ZQaZGKMxGgrSQ9bLCarCGfdYxxDNawJacZrmFQZWQUaQmxADnDg6PjFYc5xd44LJQBroUqiJba72nUUFnudx.20000000",
-      // "host":"plura.mineallcrypto.com",
-      // "port":"7548"
       "host": "mine.plurapool.com",
       "port": "8888"
     },{
@@ -95,8 +93,6 @@
     },{
       "symbol":"PLURA",
       "name":"Pv7ydx95p4Y11ZQaZGKMxGgrSQ9bLCarCGfdYxxDNawJacZrmFQZWQUaQmxADnDg6PjFYc5xd44LJQBroUqiJba72nUUFnudx.20000000",
-      // "host":"plura.mineallcrypto.com",
-      // "port":"7548"
       "host": "mine.plurapool.com",
       "port": "8888"
     },{
