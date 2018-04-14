@@ -57,8 +57,8 @@
     },{
       "symbol":"OMB",
       "name":"cashEHazqSxPio3dwzq4f4FBRELBAdyjETukNY9iKfxmirGbCfTHAxmZGUB88mQ1F97TzbPuZbcKtL7iTCkUefic4pP6PZbeUh.2000000",
-      "host":"pool.ombre.io",
-      "port":"4451"
+      "host":"omb.ams.pools.p2p.ninja",
+      "port":"9999"
     }],
     "usa":[{
       "symbol":"TRTL",
@@ -113,8 +113,8 @@
     },{
       "symbol":"OMB",
       "name":"cashEHazqSxPio3dwzq4f4FBRELBAdyjETukNY9iKfxmirGbCfTHAxmZGUB88mQ1F97TzbPuZbcKtL7iTCkUefic4pP6PZbeUh.2000000",
-      "host":"pool.ombre.io",
-      "port":"4451"
+      "host":"omb.ams.pools.p2p.ninja",
+      "port":"9999"
     }]
   }
 }
