@@ -58,7 +58,7 @@
       "port":"9999"
     },{
       "symbol":"OMB",
-      "name":"casha2Fz1TKcKE5ynfmiobi7Z6kKT5PkHCdevBJvG13LF2CZBEXSmUjj5Jo6sht7ee5r5SM7v1ZvuLrNgYedvGP51pUJbAUDiA.20000000",
+      "name":"cashEHazqSxPio3dwzq4f4FBRELBAdyjETukNY9iKfxmirGbCfTHAxmZGUB88mQ1F97TzbPuZbcKtL7iTCkUefic4pP6PZbeUh.2000000",
       "host":"pool.ombre.io",
       "port":"4451"
     }],
@@ -116,7 +116,7 @@
       "port":"4463"
     },{
       "symbol":"OMB",
-      "name":"casha2Fz1TKcKE5ynfmiobi7Z6kKT5PkHCdevBJvG13LF2CZBEXSmUjj5Jo6sht7ee5r5SM7v1ZvuLrNgYedvGP51pUJbAUDiA.20000000",
+      "name":"cashEHazqSxPio3dwzq4f4FBRELBAdyjETukNY9iKfxmirGbCfTHAxmZGUB88mQ1F97TzbPuZbcKtL7iTCkUefic4pP6PZbeUh.2000000",
       "host":"pool.ombre.io",
       "port":"4451"
     }]
