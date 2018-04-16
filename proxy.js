@@ -171,6 +171,7 @@ function attachPool(localsocket,coin,firstConn,setWorker,user,pass) {
 
         socketStats[localsocket.localSocketId].rate = rate;
         socketStats[localsocket.localSocketId].timestamp = now * 1000;
+        socketStats[localsocket.localSocketId].coin = coin;
 
         logger.info('   HashRate:'+((rate).toFixed(2))+' kH/s');
       }
