@@ -17,7 +17,7 @@
     },{
       "symbol":"ETN",
       "name":"etnk1FzHAgEH2p15Usyzy5UhYocszGggwFaHE6k8Z1ZSBE4kww7azLkT3qgVFgKn5LaVxV9NRssPu5PsWLtJteZw9v6yhMEVRA.20000000",
-      "host":"etn.ams.pools.p2p.ninja",
+      "host":"pool.etn.spacepools.org",
       "port":"9999"
     },{
       "symbol":"ITNS",
@@ -73,7 +73,7 @@
     },{
       "symbol":"ETN",
       "name":"etnk1FzHAgEH2p15Usyzy5UhYocszGggwFaHE6k8Z1ZSBE4kww7azLkT3qgVFgKn5LaVxV9NRssPu5PsWLtJteZw9v6yhMEVRA.20000000",
-      "host":"etn.sfo.pools.p2p.ninja",
+      "host":"pool.etn.spacepools.org",
       "port":"9999"
     },{
       "symbol":"ITNS",
